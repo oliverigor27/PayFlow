@@ -1,0 +1,48 @@
+# Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# C# directories
+bin/
+obj/
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored if NuGet restore is used
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+
+# C# files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.csproj.user
+*.csproj.old
+*.vbproj.user
+*.vbproj.old
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+.idea_modules/
+.idea/
+.idea/*
+
+# User-specific files
+*.rsuser
+*.resharper.user
+_ReSharper.Caches/
